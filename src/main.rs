@@ -1,7 +1,7 @@
 fn main(){
-    let y={
-        let x=5;
-        x+1
-    };
-    println!("The value of y is {y}");
+    let y=function(12);
+    println!("{y}");
+}
+fn function(x: i32)->i32{
+    x
 }
