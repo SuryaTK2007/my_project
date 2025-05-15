@@ -1,10 +1,6 @@
 fn main(){
-    let number=3;
-    if number {
-        println!("It is not a three");
-    }
-    else{
-        println!("It is three");
-    }
+    let condition=true;
+    let x= if condition {"Yes"} else {"No"};
+    println!("{x}");
 }
  
