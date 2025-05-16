@@ -1,19 +1,7 @@
 fn main(){
-    let mut count=0;
-    'counting_up: loop{
-        println!("Count: {count}");
-        let mut remaining=10;
-        loop{
-            println!("Remaining: {remaining}");
-            if remaining==9{
-                break;
-            }
-            if count==2{
-                break 'counting_up;
-            }
-            remaining-=1;
-        }
-        count+=1;
+    let mut x=3;
+    while x!=0{
+        println!("{x}");
+        x-=1;
     }
-    println!("End Count: {count}");
 }
