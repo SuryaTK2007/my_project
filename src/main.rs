@@ -1,7 +1,8 @@
 fn main(){
-    let mut x=3;
-    while x!=0{
-        println!("{x}");
-        x-=1;
+    let arr=[1,2,3,4];
+    let mut index=0;
+    while index<4{
+        println!("{}",arr[index]);
+        index+=1;
     }
 }
