@@ -1,9 +1,8 @@
 fn main(){
-    let s1=String::from("hello");
-    let (s3,length)=calculate_len(s1);
-    println!("{s3} {length}");
+    let s1=String::from("Surya");
+    let length=change(&s1);
+    println!("The length of {s1} is {length}");
 }
-fn calculate_len(s: String)->(String,usize){
-    let length=s.len();
-    (s,length)
+fn change(s: &String)->usize{
+    s.len()
 }
