@@ -1,8 +1,9 @@
-fn main(){
-    let s1=String::from("Surya");
-    let length=change(&s1);
-    println!("The length of {s1} is {length}");
+fn main() {
+    let s = String::from("hello");
+
+    change(&s);
 }
-fn change(s: &String)->usize{
-    s.len()
+
+fn change(some_string: &String) {
+    some_string.push_str(", world");
 }
